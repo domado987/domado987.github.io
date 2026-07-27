@@ -3,6 +3,7 @@ title: "[2편] 어셈블리 언어 입문: 기계어와 고급 언어 사이의 
 date: 2026-07-27 20:00:00 +0900
 categories: [CS, Assembly]
 tags: [assembly, nasm, masm, intel-syntax, att-syntax, register]
+published: false
 ---
 
 ## **어셈블리 언어란?:** 왜 2020년대에도 어셈블리를 배워야 하는가? (보안, 최적화, 임베디드)
