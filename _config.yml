@@ -45,7 +45,7 @@ social:
     - https://github.com/domado987 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # - https://www.linkedin.com/in/usernamehttps://domado987.github.io/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -64,7 +64,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: domado-ctf
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
