@@ -3,7 +3,7 @@ title: "[3편] 어셈블리 명령어와 제어 흐름, 메모리 스택 구조"
 date: 2026-08-20 8:00:00 +0900
 categories: [CS, Assembly]
 tags: [mov, cmp-jmp, stack, control-flow]
-published: true
+published: false
 ---
 
 ```nasm

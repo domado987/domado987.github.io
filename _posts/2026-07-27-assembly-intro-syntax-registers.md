@@ -3,6 +3,7 @@ title: "[2편] 어셈블리 언어 입문: 기계어와 고급 언어 사이의 
 date: 2026-07-27 20:00:00 +0900
 categories: [CS, Assembly]
 tags: [assembly, nasm, masm, intel-syntax, register]
+published: false
 ---
 
 ## **어셈블리 언어**

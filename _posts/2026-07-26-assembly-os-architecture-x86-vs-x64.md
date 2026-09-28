@@ -3,6 +3,7 @@ title: "[1편] 컴퓨터 구조와 운영체제의 첫걸음: 어셈블리는 �
 date: 2026-07-26 21:00:00 +0900
 categories: [CS, Assembly]
 tags: [cpu, memory, os-kernel, x86-vs-x64]
+published: false
 ---
 
 

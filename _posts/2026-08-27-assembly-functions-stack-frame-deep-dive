@@ -1,0 +1,13 @@
+---
+title: "[4편] [딥다이브] 어셈블리의 함수(Function) 및 스택 프레임 심층 분석"
+date: 2026-08-27 8:00:00 +0900
+categories: [CS, Assembly]
+tags: [stack-frame, call-ret, prolog-epilog]
+published: false
+---
+
+- **함수의 본질:** `CALL`과 `RET` 명령어가 내부적으로 동작하는 방식 (Instruction Pointer 추적)
+- **스택 프레임(Stack Frame)의 생성과 소멸:**
+    - Prolog: `push rbp`, `mov rbp, rsp`
+    - Epilog: `leave`, `ret`
+- **지역 변수와 매개변수의 스택 메모리배치:** 메모리 오프셋 계산 원리
