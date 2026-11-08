@@ -1,0 +1,7 @@
+[unpublished 까지 미리보기]
+bundle exec jekyll serve --livereload --incremental --unpublished
+
+[기본적인 업로드]
+git add .
+git commit -m "post: 글 제목"
+git push
