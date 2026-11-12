@@ -26,5 +26,21 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
-  }
+  },
+
+  // ---- 마크다운 이미지 붙여넣기 ----
+  // 내장 기능: 마크다운에서 Ctrl+V로 이미지 붙여넣기
+  "markdown.editor.filePaste.enabled": "smart",
+  "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+  "markdown.editor.drop.copyIntoWorkspace": "mediaFiles",
+  "markdown.copyFiles.destination": {
+    "**/*.md": "/assets/img/posts/${documentBaseName}/"
+  },
+
+  // 확장 "Paste Image" (mushan): Ctrl+Alt+V
+  "pasteImage.path": "${workspaceFolder}/assets/img/posts/${currentFileNameWithoutExt}",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.prefix": "",
+  "pasteImage.namePrefix": "image-",
+  "pasteImage.forceUnixStyleSeparator": true
 }
